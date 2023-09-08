@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id_shop"
+        android:title="@string/boutique"
+        android:icon="@drawable/store"/>
+    <item
+        android:id="@+id/id_expo"
+        android:title="@string/explorer"
+        android:icon="@drawable/ic_explore"/>
+    <item
+        android:id="@+id/id_cart"
+        android:title="@string/panier"
+        android:icon="@drawable/ic_cart"/>
+
+    <item
+        android:id="@+id/id_fav"
+        android:title="@string/favoris"
+        android:icon="@drawable/ic_fav"/>
+
+    <item
+        android:id="@+id/id_acc"
+        android:title="@string/compte"
+        android:icon="@drawable/ic_user"/>
+</menu>

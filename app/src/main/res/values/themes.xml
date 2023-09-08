@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Nectar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Nectar" parent="Base.Theme.Nectar" />
+
+    <style name="CustomTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">18sp</item>
+        <item name="android:fontFamily">@font/gilroy_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0.3</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">18sp</item>
+    </style>
+
+    <style name="CustomTextStyle2">
+        <item name="android:lineSpacingExtra">18sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">18sp</item>
+    </style>
+
+    <style name="ger_your_gr">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#B3FCFCFC</item>
+    </style>
+
+</resources>

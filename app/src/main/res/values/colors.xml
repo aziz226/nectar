@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#53B175</color>
+    <color name="black2">#030303</color>
+    <color name="google_btn_color">#5383EC</color>
+    <color name="facebook_btn_color">#4A66AC</color>
+    <color name="gris">#E2E2E2</color>
+    <color name="gris_fonce">#828282</color>
+    <color name="focus">#51FCFCFC</color>
+    <color name="gris2">#7C7C7C</color>
+    <color name="orange">#FFA500</color>
+    <color name="orange_light_banner_color">#ffc5ab</color>
+    <color name="cat_bac_color">#fef4e5</color>
+    <color name="cat_bac_color2">#F5E5FE</color>
+    <color name="cat_bac_color3">#E5F1FE</color>
+    <color name="cat_bac_color4">#EBFEE5</color>
+    <color name="cat_bac_color5">#F9E4E4</color>
+    
+</resources>
