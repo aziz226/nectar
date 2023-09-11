@@ -27,7 +27,38 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <ImageView
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/slider_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderIndicatorEnabled="true"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorMargin="15dp"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="3dp"
+                        app:sliderIndicatorRadius="2dp"
+
+                        app:sliderIndicatorSelectedColor="@color/green"
+                        app:sliderIndicatorUnselectedColor="@color/gris"
+
+                         />
+                    <!-- app:sliderAnimationDuration="600"
+                        app:sliderIndicatorAnimationDuration="600"
+                        app:sliderScrollTimeInSec="1"-->
+
+                </RelativeLayout>
+
+               <!-- <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="329dp"
                     android:layout_height="199dp"
@@ -36,7 +67,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/apple_pic" />
+                    app:srcCompat="@drawable/apple_pic" /> -->
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

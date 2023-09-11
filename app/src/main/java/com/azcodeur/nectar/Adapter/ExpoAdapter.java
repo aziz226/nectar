@@ -1,6 +1,7 @@
 package com.azcodeur.nectar.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.azcodeur.nectar.Activity.CategorieActivity;
 import com.azcodeur.nectar.Model.ExpoModel;
 import com.azcodeur.nectar.Model.GrocerieModel;
 import com.azcodeur.nectar.R;
@@ -75,6 +77,10 @@ public class ExpoAdapter extends RecyclerView.Adapter<ExpoAdapter.ViewHolder>{
         Glide.with(holder.itemView.getContext())
                 .load(drawableRessourceId)
                 .into(holder.categoryPic);
+
+        holder.mainLayout.setOnClickListener(v -> {
+            context.startActivity(new Intent(context, CategorieActivity.class));
+        });
     }
 
     @Override

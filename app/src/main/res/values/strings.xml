@@ -54,4 +54,7 @@
     <string name="viande_poisson"><![CDATA[Viande & poisson]]></string>
     <string name="boulangerie_snacks"><![CDATA[Boulangerie & Snacks]]></string>
     <string name="huile_de_cuisson_ghee"><![CDATA[Huile de cuisson & ghee]]></string>
+    <string name="filtrer">Filtrer</string>
+    <string name="passer_la_commande">Passer la commande</string>
+    <string name="tout_mettre_dans_le_panier">Tout mettre dans le panier</string>
 </resources>

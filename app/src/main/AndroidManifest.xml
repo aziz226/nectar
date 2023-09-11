@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nectar"
         tools:targetApi="31">
+        <activity
+            android:name=".Activity.FilterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CategorieActivity"
+            android:exported="false" />
         <activity
             android:name=".Activity.ProductDetail"
             android:exported="false" />
@@ -49,7 +55,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
