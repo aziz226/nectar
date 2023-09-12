@@ -57,4 +57,27 @@
     <string name="filtrer">Filtrer</string>
     <string name="passer_la_commande">Passer la commande</string>
     <string name="tout_mettre_dans_le_panier">Tout mettre dans le panier</string>
+    <string name="revenir_au_menu">Revenir au menu</string>
+    <string name="suivre_la_commande">Suivre la commande</string>
+    <string name="valider_le_paiement">Valider le paiement</string>
+    <string name="piement">Paiement</string>
+    <string name="livraison">Livraison</string>
+    <string name="ajouter_votre_position">Ajouter votre position</string>
+    <string name="mode_de_paiement">Mode de paiement</string>
+    <string name="selectionner">Selectionner</string>
+    <string name="code_promo">Code promo</string>
+    <string name="le_saisir_si_vous_en_avez">Le saisir si vous en avez</string>
+    <string name="prix_total">Prix total</string>
+    <string name="r_essayer">Réessayer</string>
+    <string name="votre_commande_a_t_n_accept_e">Votre commande a été\n acceptée</string>
+    <string name="vos_articles_ont_t_plac_s_et_sont_nen_cours_de_traitement">Vos articles ont été placés et sont \nen cours de traitement.</string>
+    <string name="oops_commande_n_chou_e">Oops! Commande \néchouée</string>
+    <string name="veuillez_r_essayer">Veuillez réessayer</string>
+    <string name="mes_commandes">Mes commandes</string>
+    <string name="mes_details">Mes details</string>
+    <string name="methode_de_paiement">Methode de paiement</string>
+    <string name="notifications">Notifications</string>
+    <string name="aides">Aides</string>
+    <string name="a_propos">A propos</string>
+
 </resources>
